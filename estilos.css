@@ -156,7 +156,7 @@ button {
 }
 
 .modal__title{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .modal__paragraph{
@@ -177,6 +177,7 @@ button {
     border-radius: 6px;
     display: inline-block;
     font-weight: 100;
+    line-height: 10px;
     transition: background-color .3s;
 }
 
@@ -229,7 +230,7 @@ button {
 .contact-info,
 .contact-form {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }

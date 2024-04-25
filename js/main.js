@@ -13,3 +13,20 @@ closeModal.addEventListener('click', (e) => {
   e.preventDefault();
   modal.classList.remove('modal--show'); // Eliminar la clase para ocultar el modal
 });
+
+const openModaln = document.querySelectorAll('.hero_ctac');
+const modaln = document.querySelector('.modal_c');
+const closeModaln = document.querySelector('.modal_close');
+
+openModaln.forEach(button => {
+
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    modaln.classList.add('modal--show');
+  })
+})
+
+closeModaln.addEventListener('click', (e) => {
+  e.preventDefault();
+  modaln.classList.remove('modal--show');
+})
